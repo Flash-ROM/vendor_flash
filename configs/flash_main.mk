@@ -125,3 +125,10 @@ EXCLUDE_SYSTEMUI_TESTS := true
 PRODUCT_PACKAGES += \
     libtinyxml \
     libxml2
+
+# For stereo widening effect
+ifneq ($(TARGET_NO_DSPMANAGER), true)
+    PRODUCT_PACKAGES += \
+        libcyanogen-dsp \
+        audio_effects.conf
+endif
