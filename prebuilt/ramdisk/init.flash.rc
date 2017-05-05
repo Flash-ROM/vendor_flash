@@ -102,9 +102,6 @@ on property:sys.boot_completed=1
    # UKSM
    write /sys/kernel/mm/uksm/run 1
 
-   # Very light LMK profile
-   write /sys/module/lowmemorykiller/parameters/minfree "7160,14320,21480,28640,35800,42960"
-
    # Vibration strength
    write /sys/class/timed_output/vibrator/vmax_mv_strong 2000
    write /sys/class/timed_output/vibrator/vmax_mv_light 1650
