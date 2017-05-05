@@ -51,7 +51,8 @@ PRODUCT_PACKAGES += \
     NexusWallpapersStubPrebuilt \
     WallpaperPickerGooglePrebuilt \
     NexusLauncherPrebuilt \
-    WallpapersUsTwo
+    WallpapersUsTwo \
+    Telegram
 
 # wallpaper location prop
 PRODUCT_PROPERTY_OVERRIDES += \
